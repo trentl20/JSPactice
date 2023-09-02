@@ -40,7 +40,7 @@
         ">paper</button>
 
         <button onclick="
-            pickComMove();
+            console.log(pickComMove());
 
             let result = '';
 
@@ -71,7 +71,7 @@
             } else if (randomNumber >= 2 / 3 && randomNumber < 1) {
                 comMove = 'scissor'
             }
-            
+            return 'rock';
         }
     </script>
 </body>
